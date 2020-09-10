@@ -3,7 +3,7 @@
 /* ROOT START */
 
 * {
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 :root {
@@ -14,12 +14,12 @@
   --f900: 'Montserrat-black';
 
   --main_color:#68bf3b;
-  --but_shadow: #68cd16;
+  --but_up: #6ad017;
+  --but_down: #3d8701;
   --main_20: rgba(103, 191, 59, 0.20);
   --p_color: #bdbdbd;
   --h2_color: #a6a6a6;
   --but_text: white;
-   
 }
 
 
@@ -27,6 +27,24 @@
 /* HEADER START */
 .header {
   background: url(../img/nav_banner_01.jpg) no-repeat center / cover;
+}
+
+h1 {
+  line-height: 50px;
+  font-family: var(--f900);
+  font-size: 72px;
+  color: var(--but_text);
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--but_text);
+}
+
+.header__nav {
+  padding: 30px 0 0 0;
 }
 
 .logo {
@@ -44,16 +62,77 @@
   margin-right: 90px;
 }
 
-.button {
+.button_nav {
   height: 50px;
   width: 200px;
   border-radius: 50px;
   background: var(--main_color);
-  
+ 
+} 
 
+.button_nav a {
+  line-height: 15px;
+  font-family: var(--f400);
+  font-size: 16px; 
+  color: var(--but_text);
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 50px;
+  text-align: center;
+  padding: 15px;
 }
 
+.header__info {
+  height: 690px;
+}
+
+.header__info__first {
+  font-family: var(--f900);
+  font-size: 18px;
+  line-height: 13px;
+  color: var(--but_text);
+  margin-bottom: 33px;
+  text-transform: uppercase;
+}
+.header__info__second {
+  line-height: 13px;
+  font-family: var(--f400);
+  font-size: 18px;
+  color: var(--but_text);
+  margin-bottom: 50px;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #6ad017 ,#3d8701  );
+}
+.button a {
+  line-height: 15px;
+  font-family: var(--f400);
+  font-size: 16px;
+  color: var(--but_text); 
+  text-decoration: none; 
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 50px;
+  text-align: center;
+  padding: 15px;
+}
 /* hEADER END */
+
+
+/* MAIN START */
+.main__totti__photo {
+  background: url(../img/totti.png) no-repeat center / cover;
+  height: 580px;
+  width: ;
+}
+
+
+/* MAIN END */
+
 
 
 
