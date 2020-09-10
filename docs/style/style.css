@@ -1,0 +1,59 @@
+@import'fonts.css';
+
+/* ROOT START */
+
+* {
+  border: 2px solid black;
+}
+
+:root {
+  --f400: 'Montserrat-regular';
+  --f700: 'Montserrat-bold';
+  --f100: 'Montserrat-Thin';
+  --f300: 'Montserrat-light';
+  --f900: 'Montserrat-black';
+
+  --main_color:#68bf3b;
+  --but_shadow: #68cd16;
+  --main_20: rgba(103, 191, 59, 0.20);
+  --p_color: #bdbdbd;
+  --h2_color: #a6a6a6;
+  --but_text: white;
+   
+}
+
+
+/* ROOT END */
+/* HEADER START */
+.header {
+  background: url(../img/nav_banner_01.jpg) no-repeat center / cover;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: var(--f700);
+  font-size: 24px;
+  line-height: 17px;
+  color: var(--but_text);
+}
+.nav__phone {
+  font-family: var(--f400);
+  font-size: 24px;
+  line-height: 23px;
+  color: white;
+  margin-right: 90px;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background: var(--main_color);
+  
+
+}
+
+/* hEADER END */
+
+
+
