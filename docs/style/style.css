@@ -38,6 +38,12 @@ h1 {
   text-transform: uppercase;
   margin-bottom: 50px;
 }
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
 
 a:hover {
   text-decoration: none;
@@ -170,6 +176,56 @@ a:hover {
   font-family: var(--f700);
   font-size: 36px;
   color: var(--menu);
+  padding-bottom: 50px;
+}
+.menu-box {
+  height: 250px;
+  margin: 0 0 50px 0;
+}
+.pissa-photo-box {
+  background: url(../img/pizza_03.jpg) no-repeat center / cover;
+  height: 250px;
+  position: absolute;
+}
+.discount {
+  background: url(../img/discount.png);
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  border: #00ce00;
+  border-radius: 100%;
+}
+
+.pissa-photo {
+  height: 250px;
+}
+
+.menu-text h3 {
+  line-height: 22px;
+  font-family: var(--f700);
+  font-size: 30px;
+  color: var(--h2_color);
+}
+.menu-text__text {
+  line-height: 24px;
+  font-family: var(--f400);
+  font-size: 14px;
+  color: var(--h2_color);
+}
+.menu-right h3:nth-child(1) {
+  line-height: 22px;
+  font-family:var(--f700);
+  font-size: 30px;
+  color: var(--h2_color);
+  padding: 15px 0 0 30px;
+}
+.menu-right h3:nth-child(2) {
+  line-height: 10px;
+  font-family: var(--f300);
+  font-size: 18px;
+  padding: 25px 0 0 12px;
 }
 
 
