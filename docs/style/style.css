@@ -2,9 +2,9 @@
 
 /* ROOT START */
 
-* {
-  border: 2px solid white;
-}
+/* * {
+  border: 2px solid black;
+} */
 
 :root {
   --f400: 'Montserrat-regular';
@@ -20,6 +20,7 @@
   --p_color: #bdbdbd;
   --h2_color: #a6a6a6;
   --but_text: white;
+  --menu: #e1f5d0;
 }
 
 
@@ -124,15 +125,63 @@ a:hover {
 
 
 /* MAIN START */
+.main__totti {
+  height: 580px;
+}
 .main__totti__photo {
   background: url(../img/totti.png) no-repeat center / cover;
-  height: 580px;
-  width: ;
+  height: 420px;
 }
+.main__totti__text {
+  height: 420px;
+  padding: 0 30px;
+}
+
+.sign {
+  background: url(../img/sign.png) no-repeat, center / cover;
+  height: 200px;
+  width: 200px;
+}
+
+.main__totti__text h2 {
+  line-height: 32px;
+  font-family: var(--f700);
+  font-size: 36px;
+  color: var(--main_color);
+}
+
+.main__totti__text p {
+  line-height: 32px;
+  font-family: var(--f400);
+  font-size: 18px;
+  color: var(--p_color);
+}
+
+.sign__box h3 {
+  line-height: 22px;
+  font-family: var(--f700);
+  font-size: 23px;
+  color: var(--h2_color);
+}
+
+/* menu */
+.menu {
+  line-height: 26px;
+  font-family: var(--f700);
+  font-size: 36px;
+  color: var(--menu);
+}
+
+
 
 
 /* MAIN END */
 
 
+
+/* MEDIA START */
+
+
+/* MEDIA END */
 
 
