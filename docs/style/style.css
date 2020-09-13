@@ -266,6 +266,24 @@ a:hover {
 
 /* MAIN END */
 
+/* FOOTER START */
+.footer {
+  height: 200px;
+  background: black;
+}
+
+.footer h3 {
+  line-height: 11px;
+  font-family: var(--f100);
+  font-size: 14px;
+  color: var(--but_text);
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* FOOTER END */
+
+
 
 
 /* MEDIA START */
