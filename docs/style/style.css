@@ -7,7 +7,7 @@
 } */
 
 :root {
-  --f400: 'Montserrat-regular';
+  --f400: 'Montserrat-reg`lar';
   --f700: 'Montserrat-bold';
   --f100: 'Montserrat-Thin';
   --f300: 'Montserrat-light';
@@ -154,6 +154,7 @@ a:hover {
   font-family: var(--f700);
   font-size: 36px;
   color: var(--main_color);
+  text-transform: uppercase;
 }
 
 .main__totti__text p {
@@ -207,6 +208,7 @@ a:hover {
   font-family: var(--f700);
   font-size: 30px;
   color: var(--h2_color);
+  text-transform: uppercase;
 }
 .menu-text__text {
   line-height: 24px;
@@ -227,8 +229,39 @@ a:hover {
   font-size: 18px;
   padding: 25px 0 0 12px;
 }
-
-
+.menu-girls__sitora {
+  background: url(../img/sitora.png) no-repeat center / cover;
+  height: 330px;
+  width: 330px;
+  margin: 100px 0 30px;
+}
+.menu-girls h3 {
+  line-height: 10px;
+  font-family: var(--f700);
+  font-size: 14px;
+  color: var(--h2_color);
+  text-transform: uppercase;
+}
+.menu-girls p {
+  line-height: 24px;
+  font-family: var(--f400);
+  font-size: 14px;
+  color: var(--h2_color);
+  text-align: center;
+  padding: 0 15px;
+}
+.menu-girls__anna {
+  background: url(../img/anna.png) no-repeat center / cover;
+  height: 330px;
+  width: 330px;
+  margin: 100px 0 30px;
+}
+.menu-girls__fariza {
+  background: url(../img/fariza.png) no-repeat center / cover;
+  height: 330px;
+  width: 330px;
+  margin: 100px 0 30px;
+}
 
 
 /* MAIN END */
