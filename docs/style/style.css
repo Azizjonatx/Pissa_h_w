@@ -50,7 +50,7 @@ a:hover {
   color: var(--but_text);
 }
 
-.header__nav {
+.nav {
   padding: 30px 0 0 0;
 }
 
@@ -69,7 +69,7 @@ a:hover {
   margin-right: 90px;
 }
 
-.button_nav {
+.nav__button {
   height: 50px;
   width: 200px;
   border-radius: 50px;
@@ -77,8 +77,18 @@ a:hover {
  
 } 
 
-.button_nav a {
+.nav__button a {
   line-height: 15px;
+  font-family: var(--f400);
+  font-size: 16px;
+  color: var(--but_text); 
+  text-decoration: none; 
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 50px;
+  text-align: center;
+  padding: 15px;
+  /* line-height: 15px;
   font-family: var(--f400);
   font-size: 16px; 
   color: var(--but_text);
@@ -86,14 +96,14 @@ a:hover {
   min-width: 100%;
   border-radius: 50px;
   text-align: center;
-  padding: 15px;
+  padding: 15px; */
 }
 
 .header__info {
   height: 690px;
 }
 
-.header__info__first {
+.header__first-info {
   font-family: var(--f900);
   font-size: 18px;
   line-height: 13px;
@@ -101,7 +111,7 @@ a:hover {
   margin-bottom: 33px;
   text-transform: uppercase;
 }
-.header__info__second {
+.header__second-info {
   line-height: 13px;
   font-family: var(--f400);
   font-size: 18px;
@@ -134,11 +144,11 @@ a:hover {
 .main__totti {
   height: 580px;
 }
-.main__totti__photo {
+.main__photo {
   background: url(../img/totti.png) no-repeat center / cover;
   height: 420px;
 }
-.main__totti__text {
+.main__text {
   height: 420px;
   padding: 0 30px;
 }
@@ -149,7 +159,7 @@ a:hover {
   width: 200px;
 }
 
-.main__totti__text h2 {
+.main__text h2 {
   line-height: 32px;
   font-family: var(--f700);
   font-size: 36px;
@@ -157,14 +167,14 @@ a:hover {
   text-transform: uppercase;
 }
 
-.main__totti__text p {
+.main__text p {
   line-height: 32px;
   font-family: var(--f400);
   font-size: 18px;
   color: var(--p_color);
 }
 
-.sign__box h3 {
+.sign-box h3 {
   line-height: 22px;
   font-family: var(--f700);
   font-size: 23px;
@@ -179,16 +189,11 @@ a:hover {
   color: var(--menu);
   padding-bottom: 50px;
 }
-.menu-box {
+.box {
   height: 250px;
   margin: 0 0 50px 0;
 }
-.pissa-photo-box {
-  background: url(../img/pizza_03.jpg) no-repeat center / cover;
-  height: 250px;
-  position: absolute;
-}
-.discount {
+.menu__discount {
   background: url(../img/discount.png);
   width: 60px;
   height: 60px;
@@ -198,51 +203,54 @@ a:hover {
   border: #00ce00;
   border-radius: 100%;
 }
-
-.pissa-photo {
+.menu__pissa-photo {
   height: 250px;
 }
-
-.menu-text h3 {
+.menu__pissa-photo-box {
+  background: url(../img/pizza_03.jpg) no-repeat center / cover;
+  height: 250px;
+  position: absolute;
+}
+.menu__text h3 {
   line-height: 22px;
   font-family: var(--f700);
   font-size: 30px;
   color: var(--h2_color);
   text-transform: uppercase;
 }
-.menu-text__text {
+.menu__text {
   line-height: 24px;
   font-family: var(--f400);
   font-size: 14px;
   color: var(--h2_color);
 }
-.menu-right h3:nth-child(1) {
+.menu__right h3:nth-child(1) {
   line-height: 22px;
   font-family:var(--f700);
   font-size: 30px;
   color: var(--h2_color);
   padding: 15px 0 0 30px;
 }
-.menu-right h3:nth-child(2) {
+.menu__right h3:nth-child(2) {
   line-height: 10px;
   font-family: var(--f300);
   font-size: 18px;
   padding: 25px 0 0 12px;
 }
-.menu-girls__sitora {
+.menu-bottom__sitora {
   background: url(../img/sitora.png) no-repeat center / cover;
   height: 330px;
   width: 330px;
   margin: 100px 0 30px;
 }
-.menu-girls h3 {
+.menu-bottom__girls h3 {
   line-height: 10px;
   font-family: var(--f700);
   font-size: 14px;
   color: var(--h2_color);
   text-transform: uppercase;
 }
-.menu-girls p {
+.menu-bottom__girls p {
   line-height: 24px;
   font-family: var(--f400);
   font-size: 14px;
@@ -250,13 +258,13 @@ a:hover {
   text-align: center;
   padding: 0 15px;
 }
-.menu-girls__anna {
+.menu-bottom__anna {
   background: url(../img/anna.png) no-repeat center / cover;
   height: 330px;
   width: 330px;
   margin: 100px 0 30px;
 }
-.menu-girls__fariza {
+.menu-bottom__fariza {
   background: url(../img/fariza.png) no-repeat center / cover;
   height: 330px;
   width: 330px;
